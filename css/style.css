@@ -1,5 +1,11 @@
 @charset "ISO-8859-1";
 
+@font-face
+{
+font-family: neoubold;
+src: url(../font/Neou-Bold.otf);
+}
+
 .background{
 	position: relative;
 }
