@@ -61,7 +61,7 @@ width: 100%;
 
 .second_header {
 	background-color:#2a2e39;
-	height: 13%;
+	padding:24px;
 	width: 100%;
 	position: absolute;
 	top: 0%;
@@ -85,8 +85,7 @@ width: 100%;
 .top-bar-section ul {
 	
 	list-style:none !important;
-	top: 22% !important;
-position: absolute !important;
+	margin:14px 0px !important;
 }
 
 .top-bar-section>ul>.divider,.top-bar-section>ul>[role="separator"] {
@@ -138,5 +137,10 @@ margin-top: 6px;
 	top:15%;
 }
 
+.border_full{
+	border: 1px solid black;
+}
 
-
+.third{
+	margin-top:25px;
+}
