@@ -137,10 +137,35 @@ margin-top: 6px;
 	top:15%;
 }
 
-.border_full{
-	border: 1px solid black;
+
+.border_full
+{
+	border-left:1px solid black;
+	
+}
+.border_full:first-of-type{
+	border-top:1px solid black;
+}
+.border_full>div{
+	border-right:1px solid black;
+	padding:65px 80px;
+	text-align:center;
+	border-bottom:1px solid black;
 }
 
 .third{
 	margin-top:25px;
+}
+
+.portfolio_image{
+padding-top: 56px;
+}
+
+.portfolio h3{
+	text-align:center;
+	margin-top: 200px;
+}
+
+.portfolio_image img{
+	padding-bottom:27px;
 }
