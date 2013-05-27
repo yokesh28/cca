@@ -19,10 +19,10 @@
 }
 
 .logo img {
-	width: 186px;
-	top: 5%;
-	left: 1%;
-	height: 58px;
+width: 240px;
+top: 5%;
+left: 1%;
+height: 60px;
 }
 
 .back_dot {
@@ -56,13 +56,23 @@ background: url("../img/secondbg.jpg");
 
 .second_page img{
 	margin-top:6px;
+
+}
+.fixed-menu{
+	position: fixed !important;
+	top:0px;
+	z-index: 5;
+	display: none;
+}
+.float-menu{
+	
 }
 
 
-
 .second_header {
-	background-color:#2a2e39;
-	padding:24px;
+	background-color:#2a2e39 !important;
+	height: 80px !important;
+padding: 4px 10px;
 	width: 100%;
 	position: absolute;
 	top: 0%;
