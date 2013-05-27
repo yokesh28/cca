@@ -138,6 +138,7 @@ width: 165px !important;
 height: 100%;
 width: 100%;
 background:#2a2e39;
+background-color:white !important;
 }
 
 .third_page img{
@@ -171,7 +172,10 @@ margin-top: 6px;
 
 .third{
 	margin-top:25px;
+	
 }
+
+
 
 .portfolio_image{
 padding-top: 56px;
@@ -184,6 +188,10 @@ padding-top: 56px;
 
 .portfolio_image img{
 	padding-bottom:27px;
+}
+
+.portfolio{
+	background-color:white !important;
 }
 
 
@@ -218,6 +226,7 @@ text-align: justify;
 	background-color:#333333;
 	width:100%;
 	height:100%;
+	display: inline-block;
 	
 }
 
