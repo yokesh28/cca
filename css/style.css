@@ -1,5 +1,11 @@
 @charset "ISO-8859-1";
 
+@font-face
+{
+font-family: neoubold;
+src: url(../font/Neou-Bold.otf);
+}
+
 .background{
 	position: relative;
 }
@@ -151,17 +157,17 @@ margin-top: 6px;
 
 .border_full
 {
-	border-left:1px solid black;
+	border-left:1px solid #cdd2d7;
 	
 }
 .border_full:first-of-type{
-	border-top:1px solid black;
+	border-top:1px solid #cdd2d7;
 }
 .border_full>div{
-	border-right:1px solid black;
+	border-right:1px solid #cdd2d7;
 	padding:65px 80px;
 	text-align:center;
-	border-bottom:1px solid black;
+	border-bottom:1px solid #cdd2d7;
 }
 
 .third{
