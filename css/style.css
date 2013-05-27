@@ -46,10 +46,11 @@ z-index: 2;
 }
 
 .second_page {
-	
+	height: 880px !important;
 position: relative;
 height: 100%;
 width: 100%;
+background: url("../img/secondbg.jpg");
 	
 }
 
@@ -96,10 +97,9 @@ width: 100%;
 
 
 .white_box{
-position:absolute;
-top: 36%;
-left: 35%;
-padding: 48px;
+padding: 36px;
+top: 26%;
+
 text-align: center;
 background-color:white;
 }
