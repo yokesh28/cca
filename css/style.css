@@ -209,10 +209,9 @@ padding-top: 56px;
 .content{
 	border:1px solid black;
 	margin-right: 80px;
-font-size: 13px;
-text-align: justify;
-
-
+padding: 42px;
+font-size: 12px;
+line-height: 18px;
 }
 
 
@@ -230,8 +229,24 @@ text-align: justify;
 	
 }
 
+ .contact_form h3 {
 
-.large-3 .contact_form h3 {
+font-size: 50px !important;
+width: 363px  !important;
+margin-left:-77px !important;
+}
 
-width: 30% !important;
+.contact_form img{
+margin-left: 43px;
+}
+.social_icons{
+	margin-top:50px;
+	
+}
+	
+	.info{
+	width: 324px !important;
+margin-top: 157px;
+line-height:38px;
+color: white;
 }
