@@ -52,5 +52,5 @@ $(window).load(function() { //DOM
 rotate = 0;
 
 $(".pre-loader").fadeOut(1000);
-$("#homepage").show(2000);
+$("#homepage").fadeIn(2000);
 });
