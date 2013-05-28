@@ -43,3 +43,14 @@ $(document).on('click', 'a[href*="#"]', function() {
 
 	$(window).trigger('hashchange');
 });
+
+
+//JavaScript Document
+
+var rotate = 1;
+$(window).load(function() { //DOM
+rotate = 0;
+
+$(".pre-loader").fadeOut(1000);
+$("#homepage").show(2000);
+});
