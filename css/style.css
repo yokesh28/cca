@@ -230,3 +230,8 @@ text-align: justify;
 	
 }
 
+
+.large-3 .contact_form h3 {
+
+width: 30% !important;
+}
