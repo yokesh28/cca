@@ -192,18 +192,19 @@ padding-top: 18px;
 
 .portfolio{
 	background-color:white !important;
+	padding: 40px 0px;
 }
 
 
 .news h3{
 	text-align:center;
-	margin-top: 90px;
+	margin-top: 110px;
 }
 
 .news{
 	background:url("../images/texture.jpg");
 	padding-top:50px;
-	padding-bottom: 79px;
+	padding-bottom: 90px;
 }
 
 .content{
@@ -230,6 +231,7 @@ line-height: 18px;
 	width:100%;
 	height:100%;
 	display: inline-block;
+	padding-top: 44px;
 	
 }
 
