@@ -64,6 +64,12 @@ background: url("../img/secondbg.jpg");
 	margin-top:6px;
 
 }
+
+.logosize{
+	width: 68%;
+padding: 3%;
+}
+
 .fixed-menu{
 	position: fixed !important;
 	top:0px;
@@ -93,10 +99,15 @@ padding: 4px 10px;
 }
 
 .top-bar-section li a {
-	padding: 0 60px !important;
+	padding: 0 46px !important;
 	line-height: 45px !important;
 	list-style:none !important;
 	background-color: #2a2e39 !important;
+	border-left:3px solid red;
+}
+
+.top-bar-section li:first-child a{
+	border-left:none;
 }
 
 .top-bar-section ul {
@@ -115,7 +126,7 @@ padding: 4px 10px;
 .white_box{
 padding: 36px;
 top: 26%;
-
+opacity: 0.8;
 text-align: center;
 background-color:white;
 }
@@ -124,6 +135,11 @@ hr{
 border-bottom:1px solid rgb(10, 9, 9)  !important;
 margin: 0 auto !important;
 width: 165px !important;
+}
+
+
+#menu{
+	font-size:21px;
 }
 
 
