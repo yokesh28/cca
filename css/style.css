@@ -68,6 +68,7 @@ background: url("../img/secondbg.jpg");
 .logosize{
 	width: 68%;
 padding: 3%;
+margin-left: 20px;
 }
 
 .fixed-menu{
@@ -207,7 +208,7 @@ padding-top: 18px;
 }
 
 .portfolio{
-	background-color:white !important;
+	background-color:mintcream !important;
 	padding: 40px 0px;
 }
 
@@ -257,6 +258,7 @@ font-size: 50px !important;
 width: 363px  !important;
 text-align:center;
 color: white;
+font-weight: normal;
 }
 
 
