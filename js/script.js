@@ -79,10 +79,13 @@ $(document).on('click', 'a[href*="#"]', function() {
 
 //JavaScript Document
 
-var rotate = 1;
+
 $(window).load(function() { //DOM
-rotate = 0;
+
 
  $(".pre-loader").fadeOut(1000);
+ 
  $("#homepage").fadeIn(2000);
+ 
+ $(document).foundation();
 });

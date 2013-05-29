@@ -332,3 +332,9 @@ hr {
 .design a {
 	color: black;
 }
+.orbit-prev{
+	display: none;
+}
+.orbit-caption{
+	display:none;
+}
