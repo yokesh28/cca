@@ -1,14 +1,42 @@
 $(document).scroll(function(e) {
 	var per = ($(window).scrollTop() / 1100) * 100;
 	if (per > 55) {
-		$('.fixed-menu').css('display', 'block');
-		$('.float-menu').css('display', 'none');
+		$('.float-menu').css({'position': 'fixed', 'z-index': '5'});
+		
 	} else {
-		$('.fixed-menu').css('display', 'none');
-		$('.float-menu').css('display', 'block');
+		$('.float-menu').css({'position': 'static', 'z-index': '5'});
 	}
 
-	console.log(per);
+console.log(per);
+if(per > 55 && per <= 127)
+	{
+	$('ul.right').find('li').removeClass('active');
+	$("ul.right li:first-child").addClass('active');
+	}
+else if(per > 128 && per <= 186)
+{
+	$('ul.right').find('li').removeClass('active');
+	$("ul.right li:nth-child(2)").addClass('active');
+	}
+else if(per > 187 && per <= 252)
+{
+	$('ul.right').find('li').removeClass('active');
+	$("ul.right li:nth-child(3)").addClass('active');
+	}
+else if(per > 253 && per <= 310)
+{
+	$('ul.right').find('li').removeClass('active');
+	$("ul.right li:nth-child(4)").addClass('active');
+	}
+else if(per > 311)
+{
+	$('ul.right').find('li').removeClass('active');
+	$("ul.right li:nth-child(5)").addClass('active');
+	}
+else
+	{
+	$('ul.right').find('li').removeClass('active');
+	}
 
 });
 
@@ -27,6 +55,10 @@ function scrollToElement(selector, time, verticalOffset) {
 
 
 $(document).on('click', 'a[href*="#"]', function() {
+	
+	
+
+	
 	if (this.hash) {
 		$.bbq.pushState('#/' + this.hash.slice(1));
 		return false;

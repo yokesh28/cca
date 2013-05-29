@@ -103,7 +103,13 @@
 	line-height: 45px !important;
 	list-style: none !important;
 	background-color: #2a2e39 !important;
-	border-left: 3px solid red;
+
+	
+}
+
+li.active a{
+	border-right:3px solid red;
+
 }
 
 .top-bar-section li:first-child a {
