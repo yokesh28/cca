@@ -53,7 +53,7 @@ function scrollToElement(selector, time, verticalOffset) {
 }
 
 
-
+ 
 $(document).on('click', 'a[href*="#"]', function() {
 	
 	

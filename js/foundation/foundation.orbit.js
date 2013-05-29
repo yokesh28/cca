@@ -8,7 +8,7 @@
 
     version: '4.1.0',
 
-    settings: {
+    settings: { 
       timer_speed: 10000,
       animation_speed: 500,
       bullets: true,
