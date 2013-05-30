@@ -22,7 +22,7 @@
 				<!-- Title Area -->
 				<li class="name">
 					<h1>
-						<a href="#" ><img src="img/logo.png" alt=""></a>
+						<a href="#"><img src="img/logo.png" alt=""> </a>
 					</h1>
 				</li>
 				<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -32,15 +32,14 @@
 
 			<section class="top-bar-section">
 				<!-- Left Nav Section -->
-				<ul class="left">
-					<li class="divider"></li>
-					<li class="active"><a href="#">Main Item 1</a></li>
-					<li class="divider"></li>
-					<li><a href="#">Main Item 2</a></li>
-					<li class="divider"></li>
-					<li><a href="#">Main Item 3</a>
-					</li>
-					<li class="divider"></li>
+				<ul class="right">
+					<li class="active"><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Portofolio</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">Contact</a></li>
+
+
 				</ul>
 
 
@@ -57,8 +56,6 @@
 					<div class="index"
 						style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">1</div>
 				</dt>
-				<div class="activeCorner spine_1"
-					style="position: absolute; top: 25px; left: 60px; overflow: hidden; z-index: 20000; display: none;"></div>
 				<dd class="slide slide_1"
 					style="position: absolute; left: 0px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#knitting_division"><img
@@ -71,8 +68,6 @@
 					<div class="index"
 						style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">2</div>
 				</dt>
-				<div class="activeCorner spine_2"
-					style="position: absolute; top: 25px; left: 120px; overflow: hidden; z-index: 20000; display: block;"></div>
 				<dd class="slide slide_2 active"
 					style="position: absolute; left: 60px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#dyeing_division"><img
@@ -85,8 +80,6 @@
 					<div class="index"
 						style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">3</div>
 				</dt>
-				<div class="activeCorner spine_3"
-					style="position: absolute; top: 25px; left: 840px; overflow: hidden; z-index: 20000; display: none;"></div>
 				<dd class="slide slide_3"
 					style="position: absolute; left: 780px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#wet_process_division"><img
@@ -99,8 +92,6 @@
 					<div class="index"
 						style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">4</div>
 				</dt>
-				<div class="activeCorner spine_4"
-					style="position: absolute; top: 25px; left: 900px; overflow: hidden; z-index: 20000; display: none;"></div>
 				<dd class="slide slide_4"
 					style="position: absolute; left: 840px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#garmenting_division"><img
@@ -113,8 +104,6 @@
 					<div class="index"
 						style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">5</div>
 				</dt>
-				<div class="activeCorner spine_5"
-					style="position: absolute; top: 25px; left: 960px; overflow: hidden; z-index: 20000; display: none;"></div>
 				<dd class="slide slide_5 last"
 					style="position: absolute; left: 900px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#printing_and_embroidery_division"><img
@@ -124,7 +113,73 @@
 			</dl>
 
 		</div>
+
 	</div>
+	<div class="row">
+		<hr class="line_red">
+
+		<div class="about_con">
+			<img src="img/bla.png" class="shadow_top">
+			<div class="about large-12 columns">
+				<h2>About</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+					industry. Lorem Ipsum has been the industry's standard dummy text
+					ever since the 1500s, when an unknown printer took a galley of type
+					and scrambled it to make a type specimen book. It has survived not
+					only five centuries, but also the leap into electronic typesetting,
+					remaining essentially unchanged. It was popularised in the 1960s
+					with the release of Letraset sheets containing Lorem Ipsum
+					passages, and more recently with desktop publishing software like
+					Aldus PageMaker including versions of Lorem Ipsum.It has survived
+					not only five centuries, but also the leap into electronic
+					typesetting, remaining essentially unchanged. It was popularised in
+					the 1960s with the release of Letraset sheets containing Lorem
+					Ipsum passages, and more recently with desktop publishing software
+					like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+			<img src="img/black1.png" class="shadow_bottom">
+		</div>
+		<div class="about_con">
+			<img src="img/bla.png" class="shadow_top">
+			<div class="about large-12 columns">
+				<h2>Our Services</h2>
+				<ul class="service_list large-12 columns">
+					<li><a href=""><img src="img/per.png"><br><span>Digital Printing</span></a></li>
+					<li ><a href=""><img src="img/pro.png"><br><span>Sinage Printing</span></a></li>
+					<li ><a href=""><img src="img/be.png"><br><span>Vinyl Graphics</span></a></li>
+					<li ><a href=""><img src="img/aw.png"><br><span>Graphics Design</span></a></li>
+
+				</ul>
+			</div>
+			<img src="img/black1.png" class="shadow_bottom">
+		</div>
+	<div class="showcase">
+	<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+	</ul>
+	</div>
+	</div>
+	
+	<footer>
+		<div class="row">
+			<div class="links">
+				<div class=" large-5 columns">
+					<ul>
+						<li>
+						
+						<li><a href="">about</a></li>
+						<li><a href="">services</a></li>
+						<li><a href="">portfolio</a></li>
+						<li><a href="">Testimonials</a></li>
+						<li><a href="">contact</a></li>
+					</ul>
+					<span>copyrights &#169; 2013</span>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script
 		src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	<script>
