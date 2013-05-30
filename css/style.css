@@ -30,6 +30,33 @@
 	height: 60px;
 }
 
+.image_text p{
+	bottom:40px;
+z-index: 2;
+right: -42%;
+color: white;
+font-size: 33px;
+font-weight: normal;
+position: absolute;
+border-left: 9px solid red;
+border-right: 9px solid red;
+text-align: center;
+letter-spacing: 8px;
+padding: 0px 21px;
+}
+
+.image_text a{
+	
+position: absolute;
+right: -35%;
+z-index: 2;
+bottom: 44px;
+}
+
+.image_text img{
+	position:static !important;
+}
+
 .back_dot {
 	background: url("../img/dot.png") repeat;
 	width: 100%;
