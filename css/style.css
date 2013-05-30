@@ -30,6 +30,33 @@
 	height: 60px;
 }
 
+.image_text p{
+	bottom:40px;
+z-index: 2;
+right: -42%;
+color: white;
+font-size: 33px;
+font-weight: normal;
+position: absolute;
+border-left: 9px solid red;
+border-right: 9px solid red;
+text-align: center;
+letter-spacing: 8px;
+padding: 0px 21px;
+}
+
+.image_text a{
+	
+position: absolute;
+right: -35%;
+z-index: 2;
+bottom: 44px;
+}
+
+.image_text img{
+	position:static !important;
+}
+
 .back_dot {
 	background: url("../img/dot.png") repeat;
 	width: 100%;
@@ -204,7 +231,7 @@ hr {
 	float: left;
 	position: relative;
 	width: 262px;
-	margin-right: 20px;
+	margin:0px 40px;
 }
 
 .portfolio_image img {
@@ -294,7 +321,7 @@ box-shadow: 0px 2px 18px #000000;
 }
 
 .contact_form h3 {
-	margin-top: 100px;
+	margin-top: 150px;
 	font-size: 50px !important;
 	width: 363px !important;
 	text-align: center;
