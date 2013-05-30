@@ -1,4 +1,4 @@
-$(function(){
+(function(){
 	updateInstagramBloc();	
 	//window.setInterval("updateInstagramBloc()", 5000);
 });
@@ -39,7 +39,7 @@ function updateInstagramBloc(){
 	);
 }
 
-$(function(){
+(function(){
 	$(window).scrollTop(0);
 });
 $(window).load(function(){

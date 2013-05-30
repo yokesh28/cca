@@ -97,12 +97,12 @@ $(document).ready(function() {
 				},
 			];
 
-		logo.src = '../bundles/wiseagence/images/animhome/w.png';
-		logowhite.src = '../bundles/wiseagence/images/animhome/w-white.png';
-		logopoint.src = '../bundles/wiseagence/images/animhome/logo-point.png';
-		animlogo.src = '../bundles/wiseagence/images/animhome/anim-logo.png';
-		logoComplet.src = '../bundles/wiseagence/images/animhome/logo.png';
-		slogan.src = '../bundles/wiseagence/images/animhome/fabrique-du-digital.png';	
+		logo.src = '../site1/images/animhome/w.png';
+		logowhite.src = '../site1/images/animhome/w-white.png';
+		logopoint.src = '../site1/images/animhome/logo-point.png';
+		animlogo.src = '../site1/images/animhome/anim-logo.png';
+		logoComplet.src = '../site1/images/animhome/logo.png';
+		slogan.src = '../site1/images/animhome/fabrique-du-digital.png';	
 
 		window.addEventListener( 'resize', resize, false );
 		canvas.addEventListener( 'click', click, false );
@@ -248,7 +248,7 @@ $(document).ready(function() {
 		}
 		context.globalAlpha = animlogoAlpha;
 
-		context.drawImage(animlogo, scene.width-paper_length+(paper_length*1.5), scene.height-paper_length+(paper_length*0.7), paper_length*2.53*0.65, paper_length*0.65);
+		context.drawImage(animlogo,scene.width-paper_length+(paper_length*1.5), scene.height-paper_length+(paper_length*0.7), paper_length*2.53*0.65, paper_length*0.65);
 		context.drawImage(logo, scene.width+(paper_length*-0.5), scene.height+(paper_length*-0.27), 91, 60);
 		context.drawImage(slogan, scene.width-paper_length+(paper_length*0.85), scene.height-paper_length+(paper_length*1.5), 228 * 0.85, 11 * 0.85);
 
