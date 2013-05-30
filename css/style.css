@@ -231,7 +231,7 @@ hr {
 	float: left;
 	position: relative;
 	width: 262px;
-	margin-right: 20px;
+	margin:0px 40px;
 }
 
 .portfolio_image img {
