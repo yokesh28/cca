@@ -1,0 +1,598 @@
+@CHARSET "ISO-8859-1";
+/*------carousel--------*/
+.logo-mobile{
+	display:none;	
+}
+#logo{
+	position:fixed;
+	top:20px;
+	left:50%;
+	margin-left:-50px;	
+	width:78px;
+	height:78px;
+	z-index:11;
+}
+#timer{
+	background:url(../images/timer-red.png) no-repeat;
+	width:78px;
+	height:78px;
+	z-index:2;
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#timer.blue{
+	background:url(../images/timer-red.png) 0 -78px no-repeat;
+}
+#timer.blue .roll{
+	display:none;
+}
+#timer span{
+	display:block;
+	background:url(../images/timer-rose.png) no-repeat;
+	width:78px;
+	/*height:78px;*/
+	height:0;
+	overflow:hidden;
+}
+#timer .roll{
+	background:url(../images/logo-w.png) no-repeat;
+	width:78px;
+	height:78px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+}
+#timer .hover{
+	background:url(../images/roll-logo.png) no-repeat;
+}
+/*-----carousel-----*/
+#carousel{
+  	overflow: hidden;
+  	position:fixed;
+  	z-index: 1;
+	background:#fff;
+	height:437px;
+	width:100%;
+}      
+#carousel ul#carousel-content{
+  	overflow: hidden;  
+	width:100000px;
+	position:absolute;
+	height:437px;  
+}
+#carousel ul#carousel-content li{
+ 	float:left;
+  	display: block;
+   	position: relative;     
+	height:437px;
+	width:1555px;
+	overflow:hidden;
+}   
+
+#carousel-btn li{
+	height:24px;
+	position:absolute; 
+	bottom:40px;	 
+	text-indent:-5000px;    
+	cursor:pointer;
+	width:1555px;
+}  
+.width-carousel{
+	position:relative;
+	min-height:100px;
+}
+.center-carousel{
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+	min-height:437px;
+}
+
+/*.carousel-img{
+	height:440px;
+	position:absolute;
+	top:0;	
+	overflow:hidden;
+}
+.carousel-img img{
+	position:absolute;
+	top:0;
+}
+.left-img .carousel-img{
+	width:650px;
+	left:0;
+	z-index:1;
+}
+.left-img .carousel-img img{
+	right:0;
+}*/
+.carousel-image{
+	position:absolute;
+	top:0;
+	height:437px;
+	overflow:hidden;
+}
+.left-img .carousel-image{
+	width:964px;
+	left:-455px;
+	z-index:1;
+}
+.right-img .carousel-image{
+	width:916px;
+	left:538px;
+	/*right:-453px;*/
+	z-index:2;
+}
+.left-img .bord{
+	background:url(../images/bord-slider.png) top left no-repeat;
+	width:123px;
+	height:355px;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.right-img .bord{
+	background:url(../images/bord-slider.png) top right no-repeat;
+	width:184px;
+	height:355px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.left-img .carousel-text{
+	width:380px;
+	position:absolute;
+	top:110px;
+	right:0;
+	z-index:2;
+} 
+.right-img .carousel-text{
+	width:380px;
+	position:absolute;
+	top:110px;
+	right:0;
+	z-index:1;
+}    
+.carousel-text h2{
+    font-family:'centrale';
+	font-size:75px;
+	line-height:65px;
+	text-transform:uppercase;
+	margin-bottom:5px;
+	font-weight:bold;
+} 
+.carousel-text h2 span{
+	font-size:28px;
+	line-height:40px;
+	display:block;
+	text-transform:none;
+	margin-bottom:5px;
+	font-weight:normal;
+}   
+.right-img .more-text{
+	top:65px;
+}  
+.right-img .more-text h2{
+	margin-bottom:13px;	
+}
+.right-img .more-text h2 span{
+	font-size:46px;	
+}
+.carousel-text p{
+	padding-right:30px;
+}
+.carousel-text .link-carousel{
+	display:inline-block;
+	height:31px;
+	line-height:32px;
+	padding:0 18px;
+	background:#e64432;
+	color:#fff;
+	font-size:12px;
+	text-transform:uppercase;
+	text-decoration:none;
+    font-family:'centrale';
+	margin-top:18px;
+	letter-spacing:2.5px;
+}
+.carousel-text .link-carousel:hover{
+	background:#d83b2a;	
+}
+#bullet{
+	position:absolute;
+	top:28px;
+	right:62px;
+	height:12px;
+	z-index:15;
+}
+#bullet p{
+	background:url(../images/carousel/bullet.png) no-repeat;
+	width:11px;
+	height:12px;
+	font-size:1px;
+	float:left;
+	margin-right:6px;
+	cursor:pointer;
+}
+#bullet p.selected-bullet,
+#bullet p:hover{
+	background:url(../images/carousel/bullet.png) 0 -12px no-repeat;	
+}
+
+/*-----------HOME----------*/
+#entete-home{
+	background:url(../images/fond-gris.jpg);
+	padding:34px 0 28px 0;
+}
+#entete-home .article{
+	width:350px;
+	padding:0 75px;
+	float:left;
+	text-align:center;
+}
+#entete-home .article h2{
+	font-family:'centrale';
+	font-size:12px;
+	line-height:12px;
+	text-transform:uppercase;
+	margin-bottom:37px;
+	background:url(../images/crenelage.png) bottom center no-repeat;
+	padding:0 0 15px 0;
+}
+#entete-home .article h1{
+	font-family:'centrale';
+	font-size:32px;
+	line-height:32px;
+	text-transform:uppercase;
+	margin-bottom:27px;
+}
+#entete-home .article:first-child h1{
+	width:307px;
+	margin:0 auto 27px auto;	
+}
+#entete-home .article a{
+	color:#2dad72;
+	font-weight:bold;
+}
+#entete-home .article a:hover{
+	text-decoration:underline;
+}
+
+#twitter-home{
+	background:#5a438f;
+	color:#fff;
+	overflow:hidden;
+	position:relative;
+}
+#twitter-home .overflow-bloc{
+	width:20000px;
+	padding:32px 0 31px 186px;
+	position:relative;
+}
+
+.bigtwit{
+	padding-left:186px;	
+}
+#twitter-home .time{
+	color:#a097b6;
+}
+#twitter-home #left-twitter{
+	position:absolute;
+	left:-152px;
+	top:0;
+	width:286px;
+	height:100%;
+	/*height:200px;*/
+	background:url(../images/bg-tweet.png) no-repeat;
+	z-index:200;
+}
+#hover-twit{
+	cursor:pointer;
+}
+#twitter-home .btn-twitter{
+	position:absolute;
+	top:93px;
+	left:73px;
+	width:35px;
+	height:29px;
+	line-height:29px;
+	z-index:2;
+	background:url(../images/bird-twitt.png) top right no-repeat;
+	z-index:201;
+}
+#twitter-home .btn-twitter a{
+	position:absolute;
+	top:7px;
+	left:50px;
+	font-size:1px;
+	text-indent:-5000px;
+	width:130px;
+	height:20px;
+	background:url(../images/btn-twit-wise.png) no-repeat;
+}
+.mybtntwit a{
+	display:none;
+}
+.twitter-follow-button{
+	display:none;	
+	position:absolute;
+	top:7px;
+	left:50px;
+}
+#left-twitter a{
+	display:none;	
+}
+#twitter-home #imgs{
+	width:20000px;	
+					-webkit-transition-property: -webkit-transform;
+				-webkit-transition-duration: 0.5s;
+				-webkit-transition-timing-function: ease-out;
+
+				-webkit-transform: translate3d(0px,0px,0px); 
+}
+#twitter-home .article{
+	width:238px;
+	padding:32px 63px 31px 0;
+	float:left;
+}
+#twitter-home .article a{
+	color:#a097b6
+}
+#twitter-home .article a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+#gall-home{
+	overflow:hidden;
+	height:250px;
+	background:#fff;
+}
+#gall-home .overflow-bloc{
+	width:20000px;
+	padding:0 0 0 375px;
+	position:relative;
+}
+#green-move{
+	height:250px;
+	background:#4dc08b;	
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}
+#gall-home .left-gall{
+	width:308px;
+	padding:70px 20px 0 30px;
+	height:177px;
+	position:absolute;
+	top:0;
+	left:0;
+	color:#fff;
+	z-index:2;
+}
+
+#gall-home .left-gall a{
+	color:#fff;
+}
+#gall-home .left-gall a:hover{
+	text-decoration:underline;	
+}
+#gall-home .figure{
+	width:250px;
+	float:left;
+	position:relative;
+	z-index:2;
+}
+#gall-home .figure img{
+	width:250px;
+	display:block;
+}
+#gall-home h2{
+	font-family:'centrale';
+	font-size:26px;
+	line-height:31px;
+	margin-bottom:18px;
+	text-transform:uppercase;
+}
+
+
+
+
+#nav-top ul li#nav-item-1{
+	left:0;
+}
+#nav-top ul li#nav-item-2{
+	left:154px;
+}
+#nav-top ul li#nav-item-3{
+	left:316px;
+}
+#nav-top ul li#nav-item-4{
+	left:510px;
+}
+#nav-top ul li#nav-item-5{
+	left:688px;
+}
+#nav-top ul li#nav-item-6{
+	left:859px;
+}
+
+
+@media only screen and (max-width: 900px){
+	#logo {
+		position:relative;
+		top:0px;
+		margin:0 0 20px -39px;
+		background:url(../images/logo-mobi.png) no-repeat;
+	}	
+	#timer{
+		display:none;
+	}
+	.header {
+	  	position: relative;
+	  	width: 100%;
+	  	z-index: 11;
+		padding:20px 0 0 0;
+	}
+	#nav-top{
+		background:#121B2D;			
+	}
+	#nav-top .center{
+		width:100%;
+		padding:0;
+	}
+	#menu-roll{
+		display:none;
+	}
+	#nav-top ul {
+	  height: auto;
+	}
+	#nav-top ul li{
+		height:58px;
+		border-bottom:1px solid #303641;
+	}
+	#nav-top ul li a {
+	  height:58px;
+	  line-height:58px;
+	}
+	#nav-top ul li#nav-item-1,
+	#nav-top ul li#nav-item-2,
+	#nav-top ul li#nav-item-3,
+	#nav-top ul li#nav-item-4,
+	#nav-top ul li#nav-item-5{
+	  	left:0;
+		width:100%;
+		text-align:center;
+	}
+	#nav-top ul li#nav-item-1 a {
+	  padding-left:0;
+	}
+	#nav-top ul li#nav-item-6{
+		display:none;
+	}
+	#entete-home {
+	  	padding:34px 0 0 0;
+	}
+	#entete-home .article {
+	  	float:none;
+	  	text-align:center;
+	  	width:100%;
+		margin-bottom:30px;
+		padding:0;
+	}
+	#twitter-home{
+		position:relative;	
+	}
+	#hover-twit {
+  		/*position:absolute;
+  		left:0;
+  		top:0;*/
+  		z-index:100;
+	}
+	#twitter-home #left-twitter {
+  		left: -213px;
+  		/*left:0;*/z-index:200;
+	}
+	#twitter-home .btn-twitter {
+  		left: 13px;
+  		z-index:201;
+	}
+	#twitter-home .overflow-bloc {
+  		padding-left:109px;
+	}	
+	
+	#twitter-home .article {
+  		/*width:182px;*/
+  		width:193px;
+  		padding:20px 20px 20px 93px;
+	}
+
+	.bigtwit{
+		padding-left:0px;	
+	}
+	#left-twitter a{
+		display:block;
+		height:1000px;
+		width:100%;	
+	}
+	#twitter-home .article p{
+		font-size:12px;	
+	}
+
+	#gall-home .overflow-bloc {
+	  	padding: 0 0 0 0;
+	  	width:100%;
+	}
+	#gall-home .overflow-mobile{
+		/*overflow:auto;*/
+		width:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:10;
+	}
+	#gall-home {
+	  	height:auto;
+	  	overflow: hidden;
+		background:#4DC08B;
+  		padding:0 0 0 0;
+  		position:relative;
+	}
+	#gall-home .left-gall {
+	  	height: auto;
+	  	left: 0;
+	  	padding: 336px 5% 30px 5%;
+	  	position: relative;
+	  	top: 0;
+	  	width:90%;
+		margin:0 auto;
+		text-align:center;
+	}
+	#gall-home #gallery_instagram{
+		height:306px;
+		/*overflow:auto;*/
+		/*position:absolute;
+		top:0;	*/
+		width:20000px;
+		float:left;
+		-webkit-transition-property: -webkit-transform;
+		-webkit-transition-duration: 0.5s;
+		-webkit-transition-timing-function: ease-out;
+		-webkit-transform: translate3d(0px,0px,0px); 
+	}
+	#insta-swipe{
+		width:20000px;
+		height:306px;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:10;
+	}
+	#gall-home #gallery_instagram .figure{
+		width:306px;
+	}
+	#gall-home #gallery_instagram .figure img{
+		width:306px;	
+	}
+	#green-move {
+		display:none;
+	}
+	.new-overflow{
+		width:100%;
+		overflow:auto;	
+	}
+	#twitter-home #left-twitter{
+		  height: 100%;
+	}
+	
+#entete-home .article:first-child h1{
+	width:290px;	
+}
+}
