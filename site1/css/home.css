@@ -13,9 +13,9 @@
 	z-index:11;
 }
 #timer{
-	background:url(../images/animhome/timer-red.png) no-repeat;
-	width:78px;
-	height:78px;
+	background:url(../images/animhome/ccalog.png) no-repeat;
+	width:80px;
+	height:80px;
 	z-index:2;
 	cursor:pointer;
 	position:absolute;
@@ -23,14 +23,14 @@
 	left:0;
 }
 #timer.blue{
-	background:url(../images/animhome/timer-red.png) 0 -78px no-repeat;
+	background:url(../images/animhome/timer.png) 0 -78px no-repeat;
 }
 #timer.blue .roll{
 	display:none;
 }
 #timer span{
 	display:block;
-	background:url(../images/animhome/timer-rose.png) no-repeat;
+	background:url(../images/animhome/timer.png) no-repeat;
 	width:78px;
 	/*height:78px;*/
 	height:0;
@@ -224,7 +224,7 @@
 
 /*-----------HOME----------*/
 #entete-home{
-	background:#EFEFEF;
+	background:url(../images/animhome/texture.jpg);
 	padding:34px 0 28px 0;
 }
 #entete-home .article{
