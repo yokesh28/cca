@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>CCA</title>
+
+<link rel="stylesheet" href="css/skin.css" />
+</head>
+<body>
+
+	<div id="slidedeck_frame" class="skin-stitch">
+		<dl class="slidedeck tabs"
+			style="height: 392px; position: relative; overflow: hidden;">
+			<dt class="spine spine_1 previous"
+				style="position: absolute; z-index: 3; display: block; left: 0px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
+				Knitting Division
+				<div class="index"
+					style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">1</div>
+			</dt>
+			<div class="activeCorner spine_1"
+				style="position: absolute; top: 25px; left: 60px; overflow: hidden; z-index: 20000; display: none;"></div>
+			<dd class="slide slide_1"
+				style="position: absolute; left: 0px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
+				<a href="#knitting_division"><img
+					src="http://stellar-4.com/mockup/acc/version5.3/images/knitting-devision.jpg"
+					alt="" class="tabs_content"> </a>
+			</dd>
+			<dt class="spine spine_2 active"
+				style="position: absolute; z-index: 3; display: block; left: 60px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
+				Dyeing Division
+				<div class="index"
+					style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">2</div>
+			</dt>
+			<div class="activeCorner spine_2"
+				style="position: absolute; top: 25px; left: 120px; overflow: hidden; z-index: 20000; display: block;"></div>
+			<dd class="slide slide_2 active"
+				style="position: absolute; left: 60px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
+				<a href="#dyeing_division"><img
+					src="http://stellar-4.com/mockup/acc/version5.3/images/dyeing_division.jpg"
+					alt="" class="tabs_content"> </a>
+			</dd>
+			<dt class="spine spine_3 next"
+				style="position: absolute; z-index: 3; display: block; left: 780px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
+				Wet process Division
+				<div class="index"
+					style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">3</div>
+			</dt>
+			<div class="activeCorner spine_3"
+				style="position: absolute; top: 25px; left: 840px; overflow: hidden; z-index: 20000; display: none;"></div>
+			<dd class="slide slide_3"
+				style="position: absolute; left: 780px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
+				<a href="#wet_process_division"><img
+					src="http://stellar-4.com/mockup/acc/version5.3/images/wet_process_division.jpg"
+					alt="" class="tabs_content"> </a>
+			</dd>
+			<dt class="spine spine_4"
+				style="position: absolute; z-index: 3; display: block; left: 840px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
+				Garmenting Division
+				<div class="index"
+					style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">4</div>
+			</dt>
+			<div class="activeCorner spine_4"
+				style="position: absolute; top: 25px; left: 900px; overflow: hidden; z-index: 20000; display: none;"></div>
+			<dd class="slide slide_4"
+				style="position: absolute; left: 840px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
+				<a href="#garmenting_division"><img
+					src="http://stellar-4.com/mockup/acc/version5.3/images/garmenting_division.jpg"
+					alt="" class="tabs_content"> </a>
+			</dd>
+			<dt class="spine spine_5 last"
+				style="position: absolute; z-index: 3; display: block; left: 900px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
+				Printing and Embroidery Division
+				<div class="index"
+					style="position: absolute; z-index: 2; display: block; width: 60px; height: 60px; text-align: center; bottom: -30px; left: 20px; -webkit-transform: rotate(90deg); -webkit-transform-origin: 30px 0px;">5</div>
+			</dt>
+			<div class="activeCorner spine_5"
+				style="position: absolute; top: 25px; left: 960px; overflow: hidden; z-index: 20000; display: none;"></div>
+			<dd class="slide slide_5 last"
+				style="position: absolute; left: 900px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
+				<a href="#printing_and_embroidery_division"><img
+					src="http://stellar-4.com/mockup/acc/version5.3/images/embroidery-division.jpg"
+					alt="" class="tabs_content"> </a>
+			</dd>
+		</dl>
+
+	</div>
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slidedeck.jquery.lite.pack.js"></script>
+	<script type="text/javascript">
+			$('.slidedeck').slidedeck().vertical();
+		</script>
+
+</body>
+</html>
