@@ -101,7 +101,7 @@ body {
 	line-height:19px;   
 }
 .center{
-	width:1000px;
+	width:999px;
 	margin:0 auto;
 	position:relative;
 }
@@ -307,7 +307,7 @@ font-size: 12px;
 	height:69px;
 	background:#3D4144;
 	color:#fff;
-	margin-top: 148px;
+	margin-top:252px;
 	padding:25px 0 0 0;
 	
 	z-index:11;
@@ -445,7 +445,7 @@ font-size: 12px;
 .service_list li {
 list-style: none;
 float: left;
-margin: 30px 48px;
+margin: 30px 72px;
 }
 
 .service_list li a>img {

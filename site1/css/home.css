@@ -231,23 +231,87 @@ padding: 34px 28px;
 
 
 .right img{
-width: 602px;
+width: 634px;
 height: 200px;
 }
 #entete-home .article{
-	width:350px;
-	padding:0 75px;
-	float:left;
-	text-align:center;
+	width: 615px;
+float: left;
+margin-left: -93px;
+background-color: white;
+padding: 46px;
+font-size: 12px;
+text-align: justify;s
+border-top: 1px solid rgb(177, 167, 167);
+border-bottom:1px solid rgb(177, 167, 167);
 }
+
+.our_service{
+	margin-left: 100px;
+color: rgb(245, 3, 3);
+}
+
+.service_background{
+height: 69px;
+background: #3D4144;
+color: #fff;
+margin-top: 148px;
+padding: 25px 0 0 0;
+z-index: 11;
+}
+
+
+.service_background li p{
+font-size: 20px;
+width: 128px;
+float: left;
+margin-right: 145px;
+}
+
+
+.service_background li{
+margin-left: 227px;
+margin-bottom: -7px;
+}
+
+.down_image{
+	margin-top:100px;
+	margin-left: 304px;
+}
+
+
+.service_background1 li img {
+font-size: 20px;
+width: 128px;
+float: left;
+margin-right: 145px;
+margin-top:92px;
+
+}
+
+.service_background1 li{
+margin-left: 227px;
+margin-bottom: -7px;
+}
+
+
+
+
+#entete-home .imaage{
+	width:351px;
+	float: right;
+margin-right: 33px;
+	
+	}
 #entete-home .article h2{
 	font-family:'centrale';
-	font-size:12px;
+	font-size:16px;
 	line-height:12px;
 	text-transform:uppercase;
 	margin-bottom:37px;
 	background:url(../images/crenelage.png) bottom center no-repeat;
 	padding:0 0 15px 0;
+	color: rgb(245, 3, 3);
 }
 #entete-home .article h1{
 	font-family:'centrale';
