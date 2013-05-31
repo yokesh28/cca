@@ -66,3 +66,14 @@ font-size: 16px;
 .down_image{
 	margin-top: 50px;
 }
+
+#copyright {
+background: #3f3f3f;
+color: #fff;
+padding: 11px 0;
+margin-top: 30px;
+}
+
+.head_color a{
+	color:white;
+}
