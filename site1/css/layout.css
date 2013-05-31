@@ -286,7 +286,7 @@ footer ul li {
 list-style: none;
 text-transform: uppercase;
 float: left;
-padding: 0px 8px;
+padding: 0px 5px;
 border-right: 1px white solid;
 line-height: 12px;
 }
@@ -451,7 +451,10 @@ margin: 30px 48px;
 .service_list li a>img {
 margin: 0px 48px;
 }
-
+.about {
+background: #3D4144;
+padding: 0px;
+}
 @media only screen and (max-width: 900px){
 	#nav-top {
 	  	height: auto;
