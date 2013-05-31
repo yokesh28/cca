@@ -235,10 +235,9 @@ width: 602px;
 height: 200px;
 }
 #entete-home .article{
-	width:350px;
-	padding:0 75px;
-	float:left;
-	text-align:center;
+	width: 570px;
+float: left;
+	
 }
 #entete-home .article h2{
 	font-family:'centrale';
