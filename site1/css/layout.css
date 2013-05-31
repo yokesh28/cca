@@ -432,7 +432,23 @@ font-size: 12px;
 	background:url(../images/bg-link-linkedin.png) 33px -28px no-repeat;
 }
 
+/*---service--*/
 
+.service_list{
+	
+	list-style: none;
+}
+
+
+.service_list li {
+list-style: none;
+float: left;
+margin: 30px 48px;
+}
+
+.service_list li a>img {
+margin: 0px 48px;
+}
 
 @media only screen and (max-width: 900px){
 	#nav-top {
