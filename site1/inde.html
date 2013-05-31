@@ -1,17 +1,21 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<!doctype html>
-<html>
 <head>
-    <meta charset="UTF-8">  
-    
-    <title>CCA</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>cca</title>
 
-    <!--[if lt IE 9]>
+  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/style.css" />
+  <!-- If you are using the gem version, you need this only -->
+  <link rel="stylesheet" href="css/app.css" />
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+ <!--[if lt IE 9]>
     <script src="/bundles/wiseagence/js/html5.js"></script>
     <![endif]-->
                 <link rel="stylesheet" href="css/layout.css" type="text/css" />
@@ -52,7 +56,9 @@
 <body>    
 
 
-    <section class="banner">    
+  <!-- body content here -->
+
+ <section class="banner">    
     <div id="carousel">
     	<div id="bullet"></div>
         <ul id="carousel-content">
@@ -65,8 +71,8 @@
 	                    </div>
 					
 	                    <div class="carousel-text">
-	                        <h2>Lorem Ipsum</h2>
-	                        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+	                        <h2>Le Parking</h2>
+	                        <p>Un moteur de recherche imagin&eacute; et d&eacute;velopp&eacute; par Wise pour trouver en moins d&rsquo;une seconde la voiture d&rsquo;occasion de vos r&ecirc;ves parmi 4 millions d'annonces.</p>
 	                        <a href="/realisation/le-parking-sites-de-marque-moteur-de-recherche" class="link-carousel">Découvrir</a>
 	                    </div>
                 	</div>
@@ -81,8 +87,8 @@
 	                    </div>
 					
 	                    <div class="carousel-text">
-	                        <h2>Lorem<br />&amp; Ipsum</h2>
-	                        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+	                        <h2>H&ocirc;tel<br />&amp; Lodge</h2>
+	                        <p>D&eacute;couvrez des h&ocirc;tels de r&ecirc;ve aux quatre coins<br />du monde et pr&eacute;parez votre voyage gr&acirc;ce &agrave; tous les conseils d'<a href="http://www.wise-digital.com/">H&ocirc;tel &amp; Lodge</a>.</p>
 	                        <a href="/realisation/hotel-lodge-sites-de-marque-site-de-marque" class="link-carousel">Découvrir</a>
 	                    </div>
                 	</div>
@@ -97,8 +103,8 @@
 	                    </div>
 					
 	                    <div class="carousel-text">
-	                        <h2>Lorem Ipsum</h2>
-	                        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+	                        <h2>WILKINSON<span>&ldquo;THE POWER OF CHOICE&rdquo;</span></h2>
+	                        <p>Un dispositif street-marketing et digital innovant pour accompagner le lancement du nouveau rasoir vibrant Hydro 5 Power Select de Wilkinson.</p>
 	                        <a href="/realisation/wilkinson-street-marketing-video-operation-the-power-of-choice" class="link-carousel">Découvrir</a>
 	                    </div>
                 	</div>
@@ -144,60 +150,69 @@
     
     
     
-    
-    
-    
-    <section id="entete-home">
-        <div class="center clearfix">
-                        <article class="article">
-                <h2>ABOUT</h2>
-               
-              <p>CCA IS A FULL SERVICE DIGITAL AGENCY BASED IN THE HEART OF SHEF-FIELD.CCA MISSION IS 
+    <div class="row">
+  <div class="large-7 columns about">
+  <h4>ABOUT</h4>
+    <p>CCA IS A FULL SERVICE DIGITAL AGENCY BASED IN THE HEART OF SHEF-FIELD.CCA MISSION IS 
                 TO PROVIDE COST EFFECTIVE DIGITAL DESIGN SERVICES WHICH ARE FOCUSED AROUND PROVIDING THE
                  BEST POSSIBLE RETURN FOR OUR CLIENTS INVESTMENT.CCA IS A FULL SERVICE DIGITAL AGENCY 
                  BASED IN THE HEART OF SHEFFIELD.CCA MISSION TO PROVIDE COST EFFECTIVE DIGITAL DESIGN 
                  SERVICES WHICH ARE FOCUSED AROUND PROVIDING THE BEST POSSIBLE RETURN FOR OUR CLIENTS
 
                   INVESTMENT.</p>
-            </article>
-             <article class="imaage">
-              <img src="images/img/banner1.png">
-            </article>
-                    </div>
-    </section>
+   </div>
+    
+     <div class="large-5 columns about_image">
+     <img src="images/img/banner1.png">
+     </div>
+    
+    </div>
     
     
-       <div class=" our_service">
-                <h2 style="color: #CE5E60;">OUR SERVICE</h2><br>
-                <ul class="service_list">
-					<li><a href=""><img src="img/per.png"></a></li>
-					<li><a href=""><img src="img/pro.png"></a></li>
-					<li><a href=""><img src="img/be.png"></a></li>
-					<li><a href=""><img src="img/aw.png"></a></li>
-
-				</ul>
-            </div> 
-
-   <!--fin entete home-->
-
-      <div class="service_background">
-      <ul>
-      <li><p>DIGITAL PRINTING</p></li>
+    
+    <div class="row">
+  <div class="large-12 columns service">
+  <h4>Service</h4>
+  
+  <ul class="large-block-grid-5">
+ <li class="move_small"><a href=""><img src="img/per.png"></a></li>
+  <li><a href=""><img src="img/pro.png"></a></li>
+  <li><a href=""><img src="img/be.png"></a></li>
+  <li><a href=""><img src="img/aw.png"></a></li>
+</ul>
+   
+ 
+  </div>
+  </div>  
+    
+    
+    <div class="row">
+  <div class="large-12 columns">
+     <ul class="large-block-grid-5 service_color">
+ <li class="move_small1"><p>DIGITAL PRINTING</p></li>
       <li><p>INDOOR SIGNAGE</p></li>
       <li><p>OUTDOOR SIGNAGE</p></li>
       <li><p>GRAPHIC DESIGN</p></li>
-      </ul>
-      <img class="down_image" src="images/img/red.png">
-      </div>
-      
-      
-       <div class="service_background1">
-      <ul>
-      <li><img src="images/img/1logo.png"></li>
+</ul>
+   
+  <img class="down_image large-offset columns" src="images/img/red.png">
+  </div>
+  </div>  
+    
+    
+  <div class="row">
+  <div class="large-12 columns">
+     <ul class="large-block-grid-5">
+ <li class="move_small1"><img src="images/img/1logo.png"></li>
       <li><img src="images/img/2logo.png"></li>
+      <li class="client_red"><p>OUR CLIENTS</p></li>
       <li><img src="images/img/3logo.png"></li>
       <li><img src="images/img/4logo.png"></li>
-      </ul>
+</ul>
+
+     
+      
+     </div>
       </div>
       
       
@@ -242,80 +257,51 @@
   
     
      </section>
-<script language="javascript" type="text/javascript" src="js/skrollr.min.js"></script> 
 
 
-<script>
-	/*$(function(){
-		var windowResize = $(window).width();
-		if(windowResize > 900){
-			$('#nav-item-2').attr({'data-0' : 'left: 154px;', 'data-300':'left: 154px;', 'data-400':'left: 139px;'});
-			$('#nav-item-3').attr({'data-0' : 'left: 316px;', 'data-300':'left: 316px;', 'data-400':'left: 300px;'});
-			$('#nav-item-4').attr({'data-0' : 'left: 510px;', 'data-300':'left: 510px;', 'data-400':'left: 527px;'});		
-			var s = skrollr.init({});	
-		}	
-		else{
-			$('#nav-item-2').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});
-			$('#nav-item-3').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});
-			$('#nav-item-4').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});	
-			var s = skrollr.init({});		
-		}
-		$(window).resize(function(){
-		var windowResize = $(window).width();
-		if(windowResize > 900){
-			$('#nav-item-2').attr({'data-0' : 'left: 154px;', 'data-300':'left: 154px;', 'data-400':'left: 139px;'});
-			$('#nav-item-3').attr({'data-0' : 'left: 316px;', 'data-300':'left: 316px;', 'data-400':'left: 300px;'});
-			$('#nav-item-4').attr({'data-0' : 'left: 510px;', 'data-300':'left: 510px;', 'data-400':'left: 527px;'});		
-			var s = skrollr.init({});
-			s.refresh();
-		}	
-		else{
-			$('#nav-item-2').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});
-			$('#nav-item-3').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});
-			$('#nav-item-4').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});	
-			var s = skrollr.init({});
-			s.refresh();	
-		}			
-		});
-	});*/
-	
-
-	
-	enquire.register("screen and (min-width:900px)", {
-	match : function(){
-		$(window).scrollTop(0);
-		$('#logo').css({top:20}); 
-		$('#nav-item-2').attr({'data-0' : 'left: 154px;', 'data-300':'left: 154px;', 'data-400':'left: 139px;'});
-		$('#nav-item-3').attr({'data-0' : 'left: 316px;', 'data-300':'left: 316px;', 'data-400':'left: 300px;'});
-		$('#nav-item-4').attr({'data-0' : 'left: 510px;', 'data-300':'left: 510px;', 'data-400':'left: 527px;'});
-		var s = skrollr.init({});
-		s.refresh();
-	}
-	}).listen();	
-	enquire.register("screen and (max-width:900px)", {
-	match : function(){ 		
-		$('#nav-item-2').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});
-		$('#nav-item-3').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});
-		$('#nav-item-4').attr({'data-0' : 'left: 0px;', 'data-300':'left: 0px;', 'data-400':'left: 0px;'});
-		$('#nav-item-2, #nav-item-3, #nav-item-4').css({left:0});
-		var s = skrollr.init({});
-		s.refresh();
-		$(window).scrollTop(0);
-		$('#logo').css({top:0});
-		$('#nav-item-2').css({left:0});
-
-	}
-	}).listen();	
-
-</script> 
- 
- 
-   
- 
-        
 
 
-   
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.alerts.js"></script>
+  <script src="js/foundation/foundation.clearing.js"></script>
+  <script src="js/foundation/foundation.cookie.js"></script>
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  <script src="js/foundation/foundation.forms.js"></script>
+  <script src="js/foundation/foundation.joyride.js"></script>
+  <script src="js/foundation/foundation.magellan.js"></script>
+  <script src="js/foundation/foundation.orbit.js"></script>
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="js/foundation/foundation.section.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/foundation/foundation.interchange.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>
