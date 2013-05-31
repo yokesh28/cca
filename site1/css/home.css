@@ -224,7 +224,7 @@
 
 /*-----------HOME----------*/
 #entete-home{
-	background:url(../images/animhome/texture.jpg);
+	
 padding: 34px 28px;
 
 }
@@ -376,7 +376,7 @@ height: 200px;
 }
 #gall-home .left-gall{
 	width:308px;
-	padding:70px 20px 0 30px;
+	padding: 53px 40px;
 	height:177px;
 	position:absolute;
 	top:0;

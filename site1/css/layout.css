@@ -232,6 +232,7 @@ margin-top: 2px;
 	position:relative;
 	z-index:10;
 	margin-top:69px;
+	background: url(../images/animhome/texture.jpg);
 }
 #content-new{
 	z-index:10;
@@ -306,8 +307,9 @@ font-size: 12px;
 	height:69px;
 	background:#3D4144;
 	color:#fff;
+	margin-top: 148px;
 	padding:25px 0 0 0;
-	position:relative;
+	
 	z-index:11;
 }
 #footer .left-footer{
