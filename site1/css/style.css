@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 .row{
-	max-width:100% !important;
+	max-width:80% !important;
 }
 .about{
 	background-color: white;
@@ -48,9 +48,8 @@ height: 198px;
 
 .client_red p{
 	background-color:red;
-	margin-top: 35px;
-width: 97px;
-padding: 4px;
+padding: 6px 48px;
+margin: 70px 0px;
 }
 
 .service_color{
