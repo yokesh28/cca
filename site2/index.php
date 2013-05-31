@@ -59,7 +59,7 @@
 				<dd class="slide slide_1"
 					style="position: absolute; left: 0px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#knitting_division"><img
-						src="http://stellar-4.com/mockup/acc/version5.3/images/knitting-devision.jpg"
+						src="img/1.jpg"
 						alt="" class="tabs_content"> </a>
 				</dd>
 				<dt class="spine spine_2 active"
@@ -71,7 +71,7 @@
 				<dd class="slide slide_2 active"
 					style="position: absolute; left: 60px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#dyeing_division"><img
-						src="http://stellar-4.com/mockup/acc/version5.3/images/dyeing_division.jpg"
+						src="img/1.jpg"
 						alt="" class="tabs_content"> </a>
 				</dd>
 				<dt class="spine spine_3 next"
@@ -83,7 +83,7 @@
 				<dd class="slide slide_3"
 					style="position: absolute; left: 780px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#wet_process_division"><img
-						src="http://stellar-4.com/mockup/acc/version5.3/images/wet_process_division.jpg"
+						src="img/1.jpg"
 						alt="" class="tabs_content"> </a>
 				</dd>
 				<dt class="spine spine_4"
@@ -95,7 +95,7 @@
 				<dd class="slide slide_4"
 					style="position: absolute; left: 840px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#garmenting_division"><img
-						src="http://stellar-4.com/mockup/acc/version5.3/images/garmenting_division.jpg"
+						src="img/1.jpg"
 						alt="" class="tabs_content"> </a>
 				</dd>
 				<dt class="spine spine_5 last"
@@ -107,7 +107,7 @@
 				<dd class="slide slide_5 last"
 					style="position: absolute; left: 900px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
 					<a href="#printing_and_embroidery_division"><img
-						src="http://stellar-4.com/mockup/acc/version5.3/images/embroidery-division.jpg"
+						src="img/1.jpg"
 						alt="" class="tabs_content"> </a>
 				</dd>
 			</dl>
