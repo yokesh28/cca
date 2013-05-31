@@ -101,7 +101,7 @@ body {
 	line-height:19px;   
 }
 .center{
-	width:1271px;
+	width:999px;
 	margin:0 auto;
 	position:relative;
 }
@@ -445,7 +445,7 @@ font-size: 12px;
 .service_list li {
 list-style: none;
 float: left;
-margin: 30px 48px;
+margin: 30px 72px;
 }
 
 .service_list li a>img {
