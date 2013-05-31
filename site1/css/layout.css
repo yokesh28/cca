@@ -232,6 +232,7 @@ margin-top: 2px;
 	position:relative;
 	z-index:10;
 	margin-top:69px;
+	background: url(../images/animhome/texture.jpg);
 }
 #content-new{
 	z-index:10;
