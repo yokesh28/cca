@@ -225,7 +225,15 @@
 /*-----------HOME----------*/
 #entete-home{
 	background:url(../images/animhome/texture.jpg);
-	padding:34px 0 28px 0;
+padding: 34px 28px;
+width: 666px;
+float:left;
+}
+
+
+.right img{
+width: 602px;
+height: 200px;
 }
 #entete-home .article{
 	width:350px;
