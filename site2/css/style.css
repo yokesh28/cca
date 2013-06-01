@@ -191,3 +191,7 @@ footer a {
 	margin: 8px;
 	font-size: 12px;
 }
+
+.validate li{
+	border: none;
+}

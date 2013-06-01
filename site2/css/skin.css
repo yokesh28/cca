@@ -7,7 +7,7 @@
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     margin: 30px 0 25px;
-	behavior:url(border-radius.htc);
+	/*behavior:url(border-radius.htc); */
 }
 .skin-stitch dl.slidedeck {
     height: 392px;
@@ -124,18 +124,18 @@
     outline: none;
 	text-decoration: none;
     border: 1px solid #ccc;
-    filter: Alpha(opacity=50);
+   /* filter: Alpha(opacity=50); */
     opacity: 0.5;
     -moz-opacity: 0.5;
     -webkit-opacity: 0.5;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-	behavior:url(border-radius.htc);
+/*	behavior:url(border-radius.htc); */
 }
 .skin-stitch dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
     opacity: 0.75;
     -moz-opacity: 0.75;
     -webkit-opacity: 0.75;
-    filter: Alpha(opacity=75); 
+    /*filter: Alpha(opacity=75); */ 
 }

@@ -58,9 +58,8 @@
 				</dt>
 				<dd class="slide slide_1"
 					style="position: absolute; left: 0px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
-					<a href="#knitting_division"><img
-						src="img/1.jpg"
-						alt="" class="tabs_content"> </a>
+					<a href="#knitting_division"><img src="img/1.jpg" alt=""
+						class="tabs_content"> </a>
 				</dd>
 				<dt class="spine spine_2 active"
 					style="position: absolute; z-index: 3; display: block; left: 60px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
@@ -70,9 +69,8 @@
 				</dt>
 				<dd class="slide slide_2 active"
 					style="position: absolute; left: 60px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
-					<a href="#dyeing_division"><img
-						src="img/1.jpg"
-						alt="" class="tabs_content"> </a>
+					<a href="#dyeing_division"><img src="img/1.jpg" alt=""
+						class="tabs_content"> </a>
 				</dd>
 				<dt class="spine spine_3 next"
 					style="position: absolute; z-index: 3; display: block; left: 780px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
@@ -82,9 +80,8 @@
 				</dt>
 				<dd class="slide slide_3"
 					style="position: absolute; left: 780px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
-					<a href="#wet_process_division"><img
-						src="img/1.jpg"
-						alt="" class="tabs_content"> </a>
+					<a href="#wet_process_division"><img src="img/1.jpg" alt=""
+						class="tabs_content"> </a>
 				</dd>
 				<dt class="spine spine_4"
 					style="position: absolute; z-index: 3; display: block; left: 840px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
@@ -94,9 +91,8 @@
 				</dt>
 				<dd class="slide slide_4"
 					style="position: absolute; left: 840px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
-					<a href="#garmenting_division"><img
-						src="img/1.jpg"
-						alt="" class="tabs_content"> </a>
+					<a href="#garmenting_division"><img src="img/1.jpg" alt=""
+						class="tabs_content"> </a>
 				</dd>
 				<dt class="spine spine_5 last"
 					style="position: absolute; z-index: 3; display: block; left: 900px; width: 342px; height: 60px; padding: 0px 40px 0px 10px; -webkit-transform: rotate(270deg); -webkit-transform-origin: 30px 0px; text-align: right; top: 362px; margin-left: -30px;">
@@ -106,8 +102,7 @@
 				</dt>
 				<dd class="slide slide_5 last"
 					style="position: absolute; left: 900px; z-index: 1; height: 372px; width: 600px; margin: 0px; padding-left: 90px; display: block; overflow: hidden;">
-					<a href="#printing_and_embroidery_division"><img
-						src="img/1.jpg"
+					<a href="#printing_and_embroidery_division"><img src="img/1.jpg"
 						alt="" class="tabs_content"> </a>
 				</dd>
 			</dl>
@@ -144,24 +139,28 @@
 			<div class="about large-12 columns">
 				<h2>Our Services</h2>
 				<ul class="service_list large-12 columns">
-					<li><a href=""><img src="img/per.png" alt=""><br><span>Digital Printing</span></a></li>
-					<li ><a href=""><img src="img/pro.png" alt=""><br><span>Sinage Printing</span></a></li>
-					<li ><a href=""><img src="img/be.png" alt=""><br><span>Vinyl Graphics</span></a></li>
-					<li ><a href=""><img src="img/aw.png" alt=""><br><span>Graphics Design</span></a></li>
+					<li><a href=""><img src="img/per.png" alt=""><br> <span>Digital
+								Printing</span> </a></li>
+					<li><a href=""><img src="img/pro.png" alt=""><br> <span>Sinage
+								Printing</span> </a></li>
+					<li><a href=""><img src="img/be.png" alt=""><br> <span>Vinyl
+								Graphics</span> </a></li>
+					<li><a href=""><img src="img/aw.png" alt=""><br> <span>Graphics
+								Design</span> </a></li>
 
 				</ul>
 			</div>
-			<img src="img/black1.png" class="shadow_bottom" alt="" >
+			<img src="img/black1.png" class="shadow_bottom" alt="">
 		</div>
-	<div class="showcase">
-	<ul>
-	<li></li>
-	<li></li>
-	<li></li>
-	</ul>
+		<div class="showcase">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 	</div>
-	</div>
-	
+
 	<footer>
 		<div class="row">
 			<div class="links">
@@ -174,9 +173,35 @@
 						<li><a href="">portfolio</a></li>
 						<li><a href="">Testimonials</a></li>
 						<li><a href="">contact</a></li>
+
+
+
 					</ul>
+
+
+
 					<span>copyrights &#169; 2013</span>
 				</div>
+				<ul class="inline-list right validate">
+
+
+					<li>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
+							style="border: 0; width: 88px; height: 31px"
+							src="http://jigsaw.w3.org/css-validator/images/vcss"
+							alt="Valid CSS!" />
+						</a>
+					</li>
+
+
+					<li>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img
+							style="border: 0; width: 88px; height: 31px"
+							src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+							alt="Valid CSS!" />
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</footer>
