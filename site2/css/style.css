@@ -22,33 +22,10 @@
 	border-radius: 6px;
 }
 
-.top-bar-section
- 
-li
- 
-a
-:not
- 
-(
-.button
- 
-)
+.top-bar-section li a:not(.button)
 {
-padding
-:
- 
-0
-7
-px
-;
-
-	
-line-height
-:
- 
-32
-px
-;
+padding:0px 7px;	
+line-height:32px;
 
 
 }
