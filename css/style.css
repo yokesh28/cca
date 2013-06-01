@@ -30,31 +30,30 @@
 	height: 60px;
 }
 
-.image_text p{
-	bottom:40px;
-z-index: 2;
-right: -42%;
-color: white;
-font-size: 33px;
-font-weight: normal;
-position: absolute;
-border-left: 9px solid red;
-border-right: 9px solid red;
-text-align: center;
-letter-spacing: 8px;
-padding: 0px 21px;
+.image_text p {
+	bottom: 40px;
+	z-index: 2;
+	right: -42%;
+	color: white;
+	font-size: 33px;
+	font-weight: normal;
+	position: absolute;
+	border-left: 9px solid red;
+	border-right: 9px solid red;
+	text-align: center;
+	letter-spacing: 8px;
+	padding: 0px 21px;
 }
 
-.image_text a{
-	
-position: absolute;
-right: -35%;
-z-index: 2;
-bottom: 44px;
+.image_text a {
+	position: absolute;
+	right: -35%;
+	z-index: 2;
+	bottom: 44px;
 }
 
-.image_text img{
-	position:static !important;
+.image_text img {
+	position: static !important;
 }
 
 .back_dot {
@@ -99,7 +98,7 @@ bottom: 44px;
 	z-index: 5;
 	display: none;
 }
- 
+
 .float-menu {
 	
 }
@@ -130,13 +129,10 @@ bottom: 44px;
 	line-height: 45px !important;
 	list-style: none !important;
 	background-color: #2a2e39 !important;
-
-	
 }
 
-li.active a{
-	border-right:3px solid red;
-
+li.active a {
+	border-right: 3px solid red;
 }
 
 .top-bar-section li:first-child a {
@@ -231,7 +227,7 @@ hr {
 	float: left;
 	position: relative;
 	width: 262px;
-	margin:0px 40px;
+	margin: 0px 40px;
 }
 
 .portfolio_image img {
@@ -250,16 +246,15 @@ hr {
 
 .portfolio_image img:hover {
 	opacity: .2;
-	filter: alpha(opacity = 20);
+	filter: alpha(opacity =   20);
 }
 
 .portfolio_image   
   .description {
 	position: absolute;
 	padding: 35px;
-	
 	margin-left: 15px;
-	top:18px;
+	top: 18px;
 	color: #black;
 	text-align: center;
 }
@@ -288,10 +283,9 @@ hr {
 }
 
 .shadowcolumns {
--moz-box-shadow: 0px 2px 18px #000000;
--webkit-box-shadow: 0px 2px 18px #000000;
-box-shadow: 0px 2px 18px #000000;
-
+	-moz-box-shadow: 0px 2px 18px #000000;
+	-webkit-box-shadow: 0px 2px 18px #000000;
+	box-shadow: 0px 2px 18px #000000;
 }
 
 .content {
@@ -364,25 +358,18 @@ box-shadow: 0px 2px 18px #000000;
 }
 
 .design a {
-
 	color: black;
 }
-.orbit-prev{
+
+.orbit-prev {
 	display: none;
 }
-.orbit-caption{
-	display:none;
 
+.orbit-caption {
+	display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#portfolio ul {
+	max-width: 1060px;
+	margin: 0 auto;
+}

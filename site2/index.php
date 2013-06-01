@@ -119,7 +119,7 @@
 		<hr class="line_red">
 
 		<div class="about_con">
-			<img src="img/bla.png" class="shadow_top">
+			<img src="img/bla.png" class="shadow_top" alt="">
 			<div class="about large-12 columns">
 				<h2>About</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -137,21 +137,21 @@
 					Ipsum passages, and more recently with desktop publishing software
 					like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
-			<img src="img/black1.png" class="shadow_bottom">
+			<img src="img/black1.png" class="shadow_bottom" alt="">
 		</div>
 		<div class="about_con">
-			<img src="img/bla.png" class="shadow_top">
+			<img src="img/bla.png" class="shadow_top" alt="">
 			<div class="about large-12 columns">
 				<h2>Our Services</h2>
 				<ul class="service_list large-12 columns">
-					<li><a href=""><img src="img/per.png"><br><span>Digital Printing</span></a></li>
-					<li ><a href=""><img src="img/pro.png"><br><span>Sinage Printing</span></a></li>
-					<li ><a href=""><img src="img/be.png"><br><span>Vinyl Graphics</span></a></li>
-					<li ><a href=""><img src="img/aw.png"><br><span>Graphics Design</span></a></li>
+					<li><a href=""><img src="img/per.png" alt=""><br><span>Digital Printing</span></a></li>
+					<li ><a href=""><img src="img/pro.png" alt=""><br><span>Sinage Printing</span></a></li>
+					<li ><a href=""><img src="img/be.png" alt=""><br><span>Vinyl Graphics</span></a></li>
+					<li ><a href=""><img src="img/aw.png" alt=""><br><span>Graphics Design</span></a></li>
 
 				</ul>
 			</div>
-			<img src="img/black1.png" class="shadow_bottom">
+			<img src="img/black1.png" class="shadow_bottom" alt="" >
 		</div>
 	<div class="showcase">
 	<ul>
