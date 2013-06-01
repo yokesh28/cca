@@ -5,11 +5,11 @@
 }
 
 .about {
-	background-color: white;
+	background-color: #EFEFEF;
 	text-align: justify;
 	border-bottom: 1px solid gray;
 	border-top: 1px solid gray;
-	margin-top: 44px;
+	margin-top: 42px;
 	font-size: 11px;
 }
 
