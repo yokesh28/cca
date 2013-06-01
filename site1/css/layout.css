@@ -450,7 +450,20 @@ margin: 30px 72px;
 }
 
 .service_list li a>img {
-margin: 0px 48px;
+margin: 0px 70px;
+}
+
+.about {
+	height:100px;
+	margin-top: 110px;
+background: #3D4144;
+padding: 0px;
+}
+
+.about span {
+	color: white;
+font-size: 16px
+	
 }
 
 @media only screen and (max-width: 900px){
