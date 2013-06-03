@@ -1,4 +1,4 @@
-@CHARSET "ISO-8859-1";
+@charset "ISO-8859-1";
 
 /* ------------------------------RAZ */
 *{margin:0; padding:0;}
@@ -25,7 +25,7 @@ a img {
 	height:1px;
 }
 .clearfix {
-  zoom: 1;
+  /*zoom: 1;*/
 }
 .clearfix:after {
   content: ".";
@@ -56,10 +56,10 @@ hgroup{
 	display:block;
 }
 
-::selection{ background:#2e2d2f; color:#fff; }
-::-moz-selection{ background:#2e2d2f; color:#fff; }         
+/*::selection{ background:#2e2d2f; color:#fff; }
+::-moz-selection{ background:#2e2d2f; color:#fff; }*/         
 
-@font-face {
+/*@font-face {
     font-family: 'centrale';
     src: url('fonts/Centrale_Sans_Medium-webfont.eot');
     src: url('fonts/Centrale_Sans_Medium-webfont.eot?#iefix') format('embedded-opentype'),
@@ -89,7 +89,7 @@ hgroup{
          url('fonts/merriweather-regular-webfont.svg#merriweatherregular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 /* ---------------fin RAZ-------------*/
 
@@ -187,7 +187,7 @@ body {
 #nav-top ul li#nav-item-1 a.selected{
 	color:#d36769;
 	background: #E9E9E9 !important;
-border-radius: 5px;
+/* border-radius: 5px; */
 margin-top: 2px;
 
 
@@ -196,7 +196,7 @@ margin-top: 2px;
 #nav-top ul li#nav-item-2 a.selected{
 	color:#d36769;
 	background: #E9E9E9 !important;
-border-radius: 5px;
+/* border-radius:5px; */
 
 margin-top: 2px;
 }
@@ -204,7 +204,7 @@ margin-top: 2px;
 #nav-top ul li#nav-item-3 a.selected{
 	color:#d36769;
 	background: #E9E9E9 !important;
-border-radius: 5px;
+/* border-radius: 5px; */
 
 margin-top: 2px;
 }
@@ -212,7 +212,7 @@ margin-top: 2px;
 #nav-top ul li#nav-item-4 a.selected{
 	color:#d36769;
 	background: #E9E9E9 !important;
-border-radius: 5px;
+/* border-radius: 5px;*/
 
 margin-top: 2px;
 }
@@ -220,7 +220,7 @@ margin-top: 2px;
 #nav-top ul li#nav-item-5 a.selected{
 	color:#d36769;
 	background: #E9E9E9 !important;
-border-radius: 5px;
+/* border-radius: 5px; */
 
 margin-top: 2px;
 }
@@ -325,7 +325,7 @@ font-size: 12px;
 	position:relative;
 }
 #footer .left-footer .figure img{
-	opacity:0;
+	/* opacity:0;*/
 	top:60px;
 	left:10px;
 	position:absolute;
@@ -440,7 +440,8 @@ font-size: 12px;
 
 
 
-@media only screen and (max-width: 900px){
+ @media handheld, only screen and (max-width: 900px) {
+
 	#nav-top {
 	  	height: auto;
 	}
