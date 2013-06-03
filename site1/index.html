@@ -1,282 +1,331 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>cca</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>cca</title>
 
-  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/foundation.css" />
+<!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/foundation.css" />
 <link rel="stylesheet" href="css/style.css" />
-  <!-- If you are using the gem version, you need this only -->
-  <link rel="stylesheet" href="css/app.css" />
+<!-- If you are using the gem version, you need this only -->
+<link rel="stylesheet" href="css/app.css" />
 
-  <script src="js/vendor/custom.modernizr.js"></script>
- <!--[if lt IE 9]>
+<script src="js/vendor/custom.modernizr.js"></script>
+<!--[if lt IE 9]>
     <script src="/bundles/wiseagence/js/html5.js"></script>
     <![endif]-->
-                <link rel="stylesheet" href="css/layout.css" type="text/css" />
-          
-    	<link rel="stylesheet" href="css/home.css" type="text/css" />
-	<style>
-		#animHome{
-			/*display:none;	*/
-		}
-	</style>
-    
-      		 
-        <script language="javascript" type="text/javascript" src="js/jquery-1.8.3.min.js"></script>  
-        <script language="javascript" type="text/javascript" src="js/raphael.js"></script>   
-        <script language="javascript" type="text/javascript" src="js/menu.js"></script> 
-        <script language="javascript" type="text/javascript" src="js/waypoints.js"></script>    
-        <script language="javascript" type="text/javascript" src="js/enquire.js"></script>    
-        <script language="javascript" type="text/javascript" src="js/tools.js"></script>        
-        	<script language="javascript" type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>  
-	<script language="javascript" type="text/javascript" src="js/home.js"></script>   
-	<script language="javascript" type="text/javascript" src="js/home-anim.js"></script>   
-    <script language="javascript" type="text/javascript" src="js/easeljs-0.5.0.min.js"></script>
-    <script language="javascript" type="text/javascript" src="js/tweenjs-0.3.0.min.js"></script>
-	<script language="javascript" type="text/javascript" src="js/carousel.js"></script>
+<link rel="stylesheet" href="css/layout.css" type="text/css" />
 
-    <script type="text/javascript">
-         var _gaq = _gaq || [];
-         _gaq.push(['_setAccount', 'UA-23982119-1']);
-         _gaq.push(['_trackPageview']);
-         (function() {
-           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-         })();
-    </script>
-    <link rel="stylesheet" href="css/awwwards.css" type="text/css" />
+<link rel="stylesheet" href="css/home.css" type="text/css" />
+<style>
+#animHome {
+	/*display:none;	*/
+	
+}
+</style>
+
+
+<script language="javascript" type="text/javascript"
+	src="js/jquery-1.8.3.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/raphael.js"></script>
+<script language="javascript" type="text/javascript" src="js/menu.js"></script>
+<script language="javascript" type="text/javascript"
+	src="js/waypoints.js"></script>
+<script language="javascript" type="text/javascript" src="js/enquire.js"></script>
+<script language="javascript" type="text/javascript" src="js/tools.js"></script>
+<script language="javascript" type="text/javascript"
+	src="js/jquery.touchSwipe.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/home.js"></script>
+<script language="javascript" type="text/javascript"
+	src="js/home-anim.js"></script>
+<script language="javascript" type="text/javascript"
+	src="js/easeljs-0.5.0.min.js"></script>
+<script language="javascript" type="text/javascript"
+	src="js/tweenjs-0.3.0.min.js"></script>
+<script language="javascript" type="text/javascript"
+	src="js/carousel.js"></script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-23982119-1' ]);
+	_gaq.push([ '_trackPageview' ]);
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<link rel="stylesheet" href="css/awwwards.css" type="text/css" />
 </head>
-<body>    
+<body>
 
 
-  <!-- body content here -->
+	<!-- body content here -->
 
- <section class="banner">    
-    <div id="carousel">
-    	<div id="bullet"></div>
-        <ul id="carousel-content">
-        	            <li class="left-img">
-            	<div class="bord"></div>
-                <div class="width-carousel">
-	                <div class="center-carousel">
-	                    <div class="carousel-image">
-	                        <img src="uploads/slider/4.png" alt="Le Parking" />
-	                    </div>
-					
-	                    <div class="carousel-text">
-	                        <h2>Le Parking</h2>
-	                        <p>Un moteur de recherche imagin&eacute; et d&eacute;velopp&eacute; par Wise pour trouver en moins d&rsquo;une seconde la voiture d&rsquo;occasion de vos r&ecirc;ves parmi 4 millions d'annonces.</p>
-	                        <a href="/realisation/le-parking-sites-de-marque-moteur-de-recherche" class="link-carousel">Découvrir</a>
-	                    </div>
-                	</div>
-                </div>
-            </li>
-        	            <li class="left-img">
-            	<div class="bord"></div>
-                <div class="width-carousel">
-	                <div class="center-carousel">
-	                    <div class="carousel-image">
-	                        <img src="uploads/slider/1.png" alt="H&ocirc;tel<br />&amp; Lodge" />
-	                    </div>
-					
-	                    <div class="carousel-text">
-	                        <h2>H&ocirc;tel<br />&amp; Lodge</h2>
-	                        <p>D&eacute;couvrez des h&ocirc;tels de r&ecirc;ve aux quatre coins<br />du monde et pr&eacute;parez votre voyage gr&acirc;ce &agrave; tous les conseils d'<a href="http://www.wise-digital.com/">H&ocirc;tel &amp; Lodge</a>.</p>
-	                        <a href="/realisation/hotel-lodge-sites-de-marque-site-de-marque" class="link-carousel">Découvrir</a>
-	                    </div>
-                	</div>
-                </div>
-            </li>
-        	            <li class="right-img">
-            	<div class="bord"></div>
-                <div class="width-carousel">
-	                <div class="center-carousel">
-	                    <div class="carousel-image">
-	                        <img src="uploads/slider/3.png" alt="WILKINSON" />
-	                    </div>
-					
-	                    <div class="carousel-text">
-	                        <h2>WILKINSON<span>&ldquo;THE POWER OF CHOICE&rdquo;</span></h2>
-	                        <p>Un dispositif street-marketing et digital innovant pour accompagner le lancement du nouveau rasoir vibrant Hydro 5 Power Select de Wilkinson.</p>
-	                        <a href="/realisation/wilkinson-street-marketing-video-operation-the-power-of-choice" class="link-carousel">Découvrir</a>
-	                    </div>
-                	</div>
-                </div>
-            </li>
-        	        </ul>    	
-    </div>
-    <canvas id="animHome">
-		<img src="images/animhome/w.png" style="display:none;">
-		<img src="images/animhome/w-white.png" style="display:none;">
-		<img src="images/animhome/logo-point.png" style="display:none;">
-		<img src="images/animhome/anim-logo.png" style="display:none;">
-		<img src="images/animhome/logo.png" style="display:none;">
-		<img src="images/animhome/fabrique-du-digital.png" style="display:none;">
+	<section class="banner">
+		<div id="carousel">
+			<div id="bullet"></div>
+			<ul id="carousel-content">
+				<li class="left-img">
+					<div class="bord"></div>
+					<div class="width-carousel">
+						<div class="center-carousel">
+							<div class="carousel-image">
+								<img src="uploads/slider/4.png" alt="Le Parking" />
+							</div>
+
+							<div class="carousel-text">
+								<h2>Le Parking</h2>
+								<p>Un moteur de recherche imagin&eacute; et
+									d&eacute;velopp&eacute; par Wise pour trouver en moins
+									d&rsquo;une seconde la voiture d&rsquo;occasion de vos
+									r&ecirc;ves parmi 4 millions d'annonces.</p>
+								<a
+									href="/realisation/le-parking-sites-de-marque-moteur-de-recherche"
+									class="link-carousel">Découvrir</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="left-img">
+					<div class="bord"></div>
+					<div class="width-carousel">
+						<div class="center-carousel">
+							<div class="carousel-image">
+								<img src="uploads/slider/1.png"
+									alt="H&ocirc;tel<br />&amp; Lodge" />
+							</div>
+
+							<div class="carousel-text">
+								<h2>
+									H&ocirc;tel<br />&amp; Lodge
+								</h2>
+								<p>
+									D&eacute;couvrez des h&ocirc;tels de r&ecirc;ve aux quatre
+									coins<br />du monde et pr&eacute;parez votre voyage
+									gr&acirc;ce &agrave; tous les conseils d'<a
+										href="http://www.wise-digital.com/">H&ocirc;tel &amp;
+										Lodge</a>.
+								</p>
+								<a
+									href="/realisation/hotel-lodge-sites-de-marque-site-de-marque"
+									class="link-carousel">Découvrir</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="right-img">
+					<div class="bord"></div>
+					<div class="width-carousel">
+						<div class="center-carousel">
+							<div class="carousel-image">
+								<img src="uploads/slider/3.png" alt="WILKINSON" />
+							</div>
+
+							<div class="carousel-text">
+								<h2>
+									WILKINSON<span>&ldquo;THE POWER OF CHOICE&rdquo;</span>
+								</h2>
+								<p>Un dispositif street-marketing et digital innovant pour
+									accompagner le lancement du nouveau rasoir vibrant Hydro 5
+									Power Select de Wilkinson.</p>
+								<a
+									href="/realisation/wilkinson-street-marketing-video-operation-the-power-of-choice"
+									class="link-carousel">Découvrir</a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<canvas id="animHome">
+		<img src="images/animhome/w.png" style="display: none;">
+		<img src="images/animhome/w-white.png" style="display: none;">
+		<img src="images/animhome/logo-point.png" style="display: none;">
+		<img src="images/animhome/anim-logo.png" style="display: none;">
+		<img src="images/animhome/logo.png" style="display: none;">
+		<img src="images/animhome/fabrique-du-digital.png"
+				style="display: none;">
 		<input type="hidden" value="" id="home_animate">
     </canvas>
-</section>
- 
-
-        <span class="logo-mobile"><a href="/">Wise digital</a></span>
-<header class="header"> 
-    <div id="logo">
-        <div id="timer"><a href="/"><span id="jauge"></span></a><div class="roll"></div></div>
-    </div>
-        
-    <nav id="nav-top">
-    <div class="center">
-        <ul class="clearfix">
-            <li id="nav-item-1"><a  href="#">About</a></li>
-            <li id="nav-item-2"><a  href="#">Services</a></li>
-            <li id="nav-item-3"><a  href="#">Portfolio</a></li>
-            <li id="nav-item-4"><a  href="#">Testimonials</a></li>
-            <li id="nav-item-5"><a  href="#">Contact</a></li>
-            
-        </ul>
-        <div id="menu-roll"></div>
-    </div>
-    </nav>
-</header> 
-
-    <section id="content">
-
-    
-    
-    
-    <div class="row">
-  <div class="large-7 columns about">
-  <h4>ABOUT</h4>
-    <p>CCA IS A FULL SERVICE DIGITAL AGENCY BASED IN THE HEART OF SHEF-FIELD.CCA MISSION IS 
-                TO PROVIDE COST EFFECTIVE DIGITAL DESIGN SERVICES WHICH ARE FOCUSED AROUND PROVIDING THE
-                 BEST POSSIBLE RETURN FOR OUR CLIENTS INVESTMENT.CCA IS A FULL SERVICE DIGITAL AGENCY 
-                 BASED IN THE HEART OF SHEFFIELD.CCA MISSION TO PROVIDE COST EFFECTIVE DIGITAL DESIGN 
-                 SERVICES WHICH ARE FOCUSED AROUND PROVIDING THE BEST POSSIBLE RETURN FOR OUR CLIENTS
-
-                  INVESTMENT.</p>
-   </div>
-    
-     <div class="large-5 columns about_image">
-     <ul data-orbit data-options="timer_speed:2500; bullets:false;">
-     <li><img src="images/img/banner1.png"></li>
-     </ul>
-     </div>
-    
-    </div>
-    
-    
-    
-    <div class="row">
-  <div class="large-12 columns service">
-  <h4>Service</h4>
-  
-  <ul class="large-block-grid-4">
- <li ><a href="" ><img src="img/per.png" ></a></li>
-  <li><a href=""><img src="img/pro.png"></a></li>
-  <li><a href=""><img src="img/be.png"></a></li>
-  <li><a href=""><img src="img/aw.png"></a></li>
-</ul>
-   
- 
-  </div>
-  </div>  
-    
-    
-    <div class="row">
-  <div class="large-12 columns">
-     <ul class="large-block-grid-4 service_color">
- <li ><p>DIGITAL </p><p> PRINTING</p></li>
-      <li><p>INDOOR </p><p>  SIGNAGE </p></li>
-      <li><p>OUTDOOR</p><p>  SIGNAGE</p></li>
-      <li><p>GRAPHIC </p><p> DESIGN</p></li>
-</ul>
-   <img src="img/black1.png" class="shadow_bottom" alt="">
-  <img class="down_image large-offset columns" src="images/img/red.png">
-  </div>
-  
-  </div>  
-    
-    
-  <div class="row">
-  <div class="large-12 columns">
-     <ul class="large-block-grid-5">
-
- <li ><img src="images/img/1logo.png" class="large-centered columns"></li>
-      <li><img src="images/img/2logo.png" class="large-centered columns"></li>
-
-      <li class="red_h"><p>OUR CLIENTS</p></li>
-      <li><img src="images/img/3logo.png" class="large-centered columns"></li>
-      <li><img src="images/img/4logo.png" class="large-centered columns"></li>
-</ul>
-
-     
-      
-     </div>
-      </div>
-      
-      
+	</section>
 
 
-<div id="copyright">
-      <div class="row full-width">
-       
-        <div class="large-8 columns">
-          <ul class="inline-list head_color">
-           
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">PORTFOLIO</a></li>
-            <li><a href="">TESTIMONIALS</a></li>
-            <li><a href="">CONTACT</a></li>
-          </ul>
-          <div class="large-4 columns">
-          <p>COPYRIGHT © 2013</p>
-        </div>
-        </div>
-         
-      </div>
-    </div>
+	<span class="logo-mobile"><a href="/">Wise digital</a></span>
+	<header class="header">
+		<div id="logo">
+			<div id="timer">
+				<a href="/"><span id="jauge"></span></a>
+				<div class="roll"></div>
+			</div>
+		</div>
 
+		<nav id="nav-top">
+			<div class="center">
+				<ul class="clearfix">
+					<li id="nav-item-1"><a href="#">About</a></li>
+					<li id="nav-item-2"><a href="#">Services</a></li>
+					<li id="nav-item-3"><a href="#">Portfolio</a></li>
+					<li id="nav-item-4"><a href="#">Testimonials</a></li>
+					<li id="nav-item-5"><a href="#">Contact</a></li>
 
+				</ul>
+				<div id="menu-roll"></div>
+			</div>
+		</nav>
+	</header>
 
- 
-  
-    
-     </section>
+	<section id="content">
 
 
 
 
+		<div class="row">
+			<div class="large-7 columns about">
+				<h4>ABOUT</h4>
+				<p>CCA IS A FULL SERVICE DIGITAL AGENCY BASED IN THE HEART OF
+					SHEF-FIELD.CCA MISSION IS TO PROVIDE COST EFFECTIVE DIGITAL DESIGN
+					SERVICES WHICH ARE FOCUSED AROUND PROVIDING THE BEST POSSIBLE
+					RETURN FOR OUR CLIENTS INVESTMENT.CCA IS A FULL SERVICE DIGITAL
+					AGENCY BASED IN THE HEART OF SHEFFIELD.CCA MISSION TO PROVIDE COST
+					EFFECTIVE DIGITAL DESIGN SERVICES WHICH ARE FOCUSED AROUND
+					PROVIDING THE BEST POSSIBLE RETURN FOR OUR CLIENTS INVESTMENT.</p>
+			</div>
+
+			<div class="large-5 columns about_image">
+				<ul data-orbit data-options="timer_speed:2500; bullets:false;">
+					<li><img src="images/img/banner1.png"></li>
+				</ul>
+			</div>
+
+		</div>
 
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  <script src="js/foundation/foundation.js"></script>
-  <script src="js/foundation/foundation.alerts.js"></script>
-  <script src="js/foundation/foundation.clearing.js"></script>
-  <script src="js/foundation/foundation.cookie.js"></script>
-  <script src="js/foundation/foundation.dropdown.js"></script>
-  <script src="js/foundation/foundation.forms.js"></script>
-  <script src="js/foundation/foundation.joyride.js"></script>
-  <script src="js/foundation/foundation.magellan.js"></script>
-  <script src="js/foundation/foundation.orbit.js"></script>
-  <script src="js/foundation/foundation.placeholder.js"></script>
-  <script src="js/foundation/foundation.reveal.js"></script>
-  <script src="js/foundation/foundation.section.js"></script>
-  <script src="js/foundation/foundation.tooltips.js"></script>
-  <script src="js/foundation/foundation.topbar.js"></script>
-  <script src="js/foundation/foundation.interchange.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
+
+		<div class="row">
+			<div class="large-12 columns service">
+				<h4>Service</h4>
+
+				<ul class="large-block-grid-4">
+					<li><a href=""><img src="img/per.png"></a></li>
+					<li><a href=""><img src="img/pro.png"></a></li>
+					<li><a href=""><img src="img/be.png"></a></li>
+					<li><a href=""><img src="img/aw.png"></a></li>
+				</ul>
+
+
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="large-12 columns">
+				<ul class="large-block-grid-4 service_color">
+					<li><p>DIGITAL</p>
+						<p>PRINTING</p></li>
+					<li><p>INDOOR</p>
+						<p>SIGNAGE</p></li>
+					<li><p>OUTDOOR</p>
+						<p>SIGNAGE</p></li>
+					<li><p>GRAPHIC</p>
+						<p>DESIGN</p></li>
+				</ul>
+				<img src="img/black1.png" class="shadow_bottom" alt=""> <img
+					class="down_image large-offset columns" src="images/img/red.png">
+			</div>
+
+		</div>
+
+
+		<div class="row">
+			<div class="large-12 columns">
+				<ul class="large-block-grid-5">
+
+					<li><img src="images/img/1logo.png"
+						class="large-centered columns"></li>
+					<li><img src="images/img/2logo.png"
+						class="large-centered columns"></li>
+
+					<li class="red_h"><p>OUR CLIENTS</p></li>
+					<li><img src="images/img/3logo.png"
+						class="large-centered columns"></li>
+					<li><img src="images/img/4logo.png"
+						class="large-centered columns"></li>
+				</ul>
+
+
+
+			</div>
+		</div>
+
+
+
+
+		<div id="copyright">
+			<div class="row full-width">
+
+				<div class="large-8 columns">
+					<ul class="inline-list head_color">
+
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">SERVICES</a></li>
+						<li><a href="">PORTFOLIO</a></li>
+						<li><a href="">TESTIMONIALS</a></li>
+						<li><a href="">CONTACT</a></li>
+					</ul>
+					<div class="large-4 columns">
+						<p>COPYRIGHT © 2013</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+	</section>
+
+
+
+
+
+
+	<script>
+		document.write('<script src='
+				+ ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery')
+				+ '.js><\/script>')
+	</script>
+	<script src="js/foundation/foundation.js"></script>
+	<script src="js/foundation/foundation.alerts.js"></script>
+	<script src="js/foundation/foundation.clearing.js"></script>
+	<script src="js/foundation/foundation.cookie.js"></script>
+	<script src="js/foundation/foundation.dropdown.js"></script>
+	<script src="js/foundation/foundation.forms.js"></script>
+	<script src="js/foundation/foundation.joyride.js"></script>
+	<script src="js/foundation/foundation.magellan.js"></script>
+	<script src="js/foundation/foundation.orbit.js"></script>
+	<script src="js/foundation/foundation.placeholder.js"></script>
+	<script src="js/foundation/foundation.reveal.js"></script>
+	<script src="js/foundation/foundation.section.js"></script>
+	<script src="js/foundation/foundation.tooltips.js"></script>
+	<script src="js/foundation/foundation.topbar.js"></script>
+	<script src="js/foundation/foundation.interchange.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
 </body>
 </html>
